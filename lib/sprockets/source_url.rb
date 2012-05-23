@@ -18,5 +18,7 @@ module Sprockets
     end
   end
 
-  register_postprocessor 'application/javascript', SourceURL
+  if defined?(register_postprocessor)
+    register_postprocessor 'application/javascript', SourceURL
+  end
 end

@@ -12,7 +12,11 @@ You see your whole directory tree:
 
 ![After](http://img.svbtle.com/maccman-24080139476460-raw.png)
 
-So much easier to navigate! The alternative to this is to spit up multiple script tags into the page.
+So much easier to navigate! The alternative to this is to spit out multiple script tags into the page.
+
+## Usage
+
+Just require `sprockets/source_url` in development.
 
 ## @sourceURL
 
