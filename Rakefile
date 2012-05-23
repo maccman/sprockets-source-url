@@ -11,7 +11,6 @@ task :example do
   env['application.js'].write_to target
 end
 
-
 task :default => :test
 
 Rake::TestTask.new do |t|

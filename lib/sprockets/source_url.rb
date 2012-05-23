@@ -12,7 +12,7 @@ module Sprockets
       code = ''
       code << 'eval('
       code << data.inspect
-      code << " + \"\\n//@ sourceURL=#{scope.logical_path}\""
+      code << " + \"\\n//@ sourceURL=/#{scope.logical_path}\""
       code << ");\n"
       code
     end
