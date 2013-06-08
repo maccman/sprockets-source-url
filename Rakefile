@@ -1,7 +1,9 @@
+require 'bundler/setup'
 require 'bundler/gem_tasks'
 require 'sprockets'
 require 'sprockets/source_url'
 require 'rake/testtask'
+require 'bump/tasks'
 
 task :example do
   env = Sprockets::Environment.new(File.expand_path('..', __FILE__))
