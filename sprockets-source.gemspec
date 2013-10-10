@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.version     = '0.0.1'
   s.authors     = ["Alex MacCaw"]
   s.email       = ["info@eribium.org"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/maccman/sprockets-source-url"
   s.summary     = %q{Adds SourceURL support to Sprockets}
   s.description = s.summary
 
